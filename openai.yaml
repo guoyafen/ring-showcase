@@ -1,0 +1,4 @@
+interface:
+  display_name: "环形互动展示网站"
+  short_description: "替换素材即可制作含高清放大镜、小票清单与隐藏款拆盒的环形互动网站"
+  default_prompt: "使用 $ring-showcase，把我提供的素材做成带环形拖拽、高清放大镜和小票清单的互动展示网站。"

@@ -1,0 +1,52 @@
+{
+  "pageTitle": "MY STUDIO · 系列展示",
+  "brand": "MY STUDIO",
+  "brandMark": "",
+  "subtitle": "我的系列 · 互动展示",
+  "season": "COLLECTION 01",
+  "receiptSeason": "COLLECTION 01",
+  "statusTime": "周一 08:59",
+  "statusText": "AT OFFICE",
+  "battery": "12%",
+  "thanks": "THANKS FOR CLOCKING IN.",
+  "shopLabel": "SHOP THIS FIT",
+  "bagLabel": "BAG",
+  "addFitLabel": "ADD WHOLE FIT TO BAG →",
+  "addedFitLabel": "ADDED TO BAG ✓",
+  "discountRate": 0.15,
+  "currency": "¥",
+  "imageAspect": 0.6666666666666666,
+  "gridColumns": 3,
+  "demoFeatureIndex": 0,
+  "theme": {
+    "background": "#EBEAEC",
+    "ink": "#111111",
+    "muted": "#8b8a8f"
+  },
+  "looks": [
+    {
+      "id": "01",
+      "en": "LOOK ONE",
+      "cn": "第一套",
+      "tag": "替换成你的介绍",
+      "img": "images/01.png",
+      "hd": "images/hd/01.jpg",
+      "items": [
+        {
+          "name": "示例单品",
+          "short": "单品",
+          "cat": "ITEM",
+          "price": 299
+        }
+      ],
+      "props": [],
+      "hs": [
+        {
+          "ref": "i0",
+          "x": 0.5,
+          "y": 0.45
+        }
+      ]
+    }
+  ]
+}

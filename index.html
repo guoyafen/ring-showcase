@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ON DUTY® · 她的 9 种打工人格</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app" class="mode-ring">
+  <!-- 顶部状态栏 -->
+  <header class="topbar">
+    <div class="tb-left">
+      <span class="tb-time">周一 08:59</span>
+      <svg class="ico-signal" viewBox="0 0 18 12" aria-hidden="true"><rect x="0" y="8" width="3" height="4" rx=".6"/><rect x="5" y="5.5" width="3" height="6.5" rx=".6"/><rect x="10" y="3" width="3" height="9" rx=".6"/><rect x="15" y="0" width="3" height="12" rx=".6" opacity=".25"/></svg>
+      <span class="tb-loc">AT OFFICE</span>
+    </div>
+    <div class="tb-center">
+      <div class="brand">ON DUTY<sup>®</sup></div>
+      <div class="brand-sub">她的 9 种打工人格 · 初冬 OOTD</div>
+    </div>
+    <div class="tb-right">
+      <span class="battery"><span class="battery-body"><span class="battery-fill"></span></span><span class="battery-pct">12%</span></span>
+      <button class="pill" id="bagBtn"><span id="bagLabel">BAG</span> (<span id="bagCount">0</span>)</button>
+    </div>
+  </header>
+
+  <!-- 左右竖向按钮 -->
+  <nav class="side side-left">
+    <button class="pill vpill is-on" data-view="ring">RING</button>
+    <button class="pill vpill" data-view="grid">GRID</button>
+  </nav>
+  <nav class="side side-right">
+    <span class="pill vpill ghost">FW26 · 初冬</span>
+    <span class="pill vpill ghost" id="sideCount">09 LOOKS</span>
+  </nav>
+
+  <!-- 人物舞台 -->
+  <main id="stage"></main>
+  <div id="gridLabels"></div>
+
+  <!-- 底部 HUD（环形视图） -->
+  <footer class="hud">
+    <div class="hud-left">
+      <div class="hud-index"><span id="hudIdx">01</span> / <span id="hudTotal">09</span></div>
+      <div class="hud-name"><span class="hud-en" id="hudEn">HUSTLER</span><span class="hud-cn" id="hudCn">卷王</span></div>
+    </div>
+    <div class="hud-center" id="hudChips"></div>
+    <div class="hud-right">
+      <span class="shop-label">SHOP THIS FIT</span>
+      <button class="plus" id="plusBtn" aria-label="Shop this fit">+</button>
+    </div>
+  </footer>
+
+  <!-- 小票清单 -->
+  <aside id="receipt" aria-hidden="true">
+    <button class="pill close-btn" id="closeBtn">CLOSE ✕</button>
+    <div class="paper" id="paper"></div>
+  </aside>
+
+  <div id="flash"></div>
+  <div id="dragCursor"><span>DRAG</span></div>
+  <div id="demoArrow"><svg viewBox="0 0 32 40"><path d="M3 2 L3 32 L10.5 25 L15.5 37 L21 34.6 L16 23 L26 23 Z" fill="#0d0d0d" stroke="#fff" stroke-width="2.2" stroke-linejoin="round"/></svg></div>
+  <div id="toast"></div>
+
+  <!-- 放大镜（详情视图，有高清图的人物才启用） -->
+  <div id="loupe"><div class="loupe-img"></div><span class="loupe-tag">×2.5</span></div>
+  <div id="zoomHint" class="pill">移动鼠标看细节 · 滚轮调倍率</div>
+</div>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
