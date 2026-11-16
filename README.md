@@ -18,7 +18,7 @@
 
 ## 获取 Skill
 
-[下载完整 Skill ZIP](https://github.com/guoyafen/ring-showcase/releases/download/v1.0.0/ring-showcase-skill.zip)
+[下载完整 Skill ZIP](https://github.com/guoyafen/ring-showcase/releases/latest/download/ring-showcase-skill.zip)
 
 ZIP 内的 `ring-showcase/` 包含 SKILL.md、模板、生成脚本、配置说明和原版示例图片。将整个文件夹交给支持本地 Skill 的 AI 工具安装，不要只复制 SKILL.md。
 
@@ -68,3 +68,11 @@ D 自动演示；V 竖屏；G 环形/网格；H 光标开关；Esc 停止演示�
 ## 验证范围
 
 已用原版 9 人素材及另一套 4 件素材验证换图、品牌与配色配置、详情、高清放大镜、加购、独立隐藏款和自动演示。另验证 1 项无隐藏款演示、12 项网格、拖拽吸附、拒绝无效热区及已有输出目录。不同环境与新素材仍需进行浏览器验收。
+
+## 开源许可
+
+本项目采用 [MIT License](LICENSE)，版权声明为 Copyright (c) 2026 guoyafen。
+
+允许免费使用、修改、商业使用及再分发（包括收费分发），需保留版权和许可声明；按许可证原文提供，不作担保。Skill 下载包和生成的网站均附带 LICENSE。
+
+MIT 许可适用于本项目由发布者有权授权的内容，不替代第三方素材自身的授权，也不授予第三方商标或肖像权。使用者新增或替换素材时，应自行取得所需授权。
